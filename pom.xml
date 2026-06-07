@@ -25,6 +25,7 @@
         <lombok.version>1.18.46</lombok.version>
         <selenide.version>7.16.2</selenide.version>
         <allure-selenide.version>2.24.0</allure-selenide.version>
+        <rest-assured.version>6.0.0</rest-assured.version>
 
         <!-- Версии плагинов -->
         <surefire.version>3.5.4</surefire.version>
@@ -129,7 +130,14 @@
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
             <version>${selenide.version}</version>
-            <scope>test</scope>
+            <scope>compile</scope>
+        </dependency>
+        <!-- rest-assured -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>${rest-assured.version}</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Homework2 Tests">
+
+    <test name="All Homework2 Tests">
+        <packages>
+            <package name="homework2.tests"/>
+        </packages>
+    </test>
+
+</suite>
